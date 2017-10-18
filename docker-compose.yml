@@ -1,0 +1,12 @@
+on: '2' # version: '3' requires docker version 1.13 and above
+services:
+
+  blotter:
+    image: teamshadi/mf-dataentry
+   build:
+     context: ${PWD}/build/mf-dataentry/
+   ports:
+   - "8888:8008"
+   volumes:
+   - /data/docker-mf-dataentry/mf-dataentry/:/var/lib/mf-dataentry/data/
+      

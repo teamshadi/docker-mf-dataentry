@@ -1,0 +1,3 @@
+[submodule "build/mf-dataentry"]
+  path = build/mf-dataentry
+  url = https://github.com/teamshadi/mf-dataentry
